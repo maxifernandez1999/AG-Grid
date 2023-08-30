@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AgGridModule } from 'ag-grid-angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BasicGridComponent } from './components/basic-grid/basic-grid.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BasicGridComponent
   ],
   imports: [
     BrowserModule,
